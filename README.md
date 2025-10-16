@@ -1,5 +1,4 @@
-# Gr10CAT_HTML
-
+Gr10CAT_HTML
 Grade 10 CAT — HTML Guide (CAPS/NSC)
 A start-to-finish, classroom-ready handbook in GitHub-flavoured Markdown. Drop directly into README.md.
 Table of Contents
@@ -8,6 +7,9 @@ Tools & Setup
 Project Folder Structure
 Create Your First Page (index.html)
 Essential HTML Elements
+Headings & Paragraphs
+Emphasis & Inline
+Horizontal Rule & Entities
 Links & Navigation
 Images & File Paths
 Lists & Tables
@@ -21,6 +23,7 @@ Practical Tasks
 Submission Checklist
 Quick Reference Tag Sheet
 Complete Example Page
+Teacher Notes (Optional)
 What is HTML?
 HTML (HyperText Markup Language) gives structure to web content (headings, paragraphs, images, links, tables, and forms).
 Grade 10 focus: HTML structure, with a small amount of CSS for neatness.
@@ -97,7 +100,7 @@ Email / Phone
 Images & File Paths
 <img src="images/logo.png" alt="My website logo" width="200">
 Always include meaningful alt text.
-Figure + Caption:
+Figure + Caption
 <figure>
   <img src="images/sunrise.jpg" alt="Sunrise at the beach">
   <figcaption>Figure 1: Sunrise at the beach.</figcaption>
@@ -182,7 +185,7 @@ Make link text descriptive (avoid “click here”).
 Validation & Troubleshooting
 Use W3C Validator to catch errors/warnings.
 Fix missing tags, incorrect nesting, wrong attributes, and missing alt.
-Typical Fixes:
+Typical Fixes
 Add <!DOCTYPE html> and a <title>.
 Check image paths & filename case.
 Close all tags and avoid putting block elements inside <p>.
@@ -229,7 +232,7 @@ Text: <h1>…<h6>, <p>, <strong>, <em>, <br>, <hr>, <span>, <div>
 Links & Media: <a href>, target="_blank", rel="noopener", <img>, <figure>, <figcaption>
 Lists: <ul>, <ol>, <li>, <dl>, <dt>, <dd>
 Tables: <table>, <caption>, <thead>, <tbody>, <tfoot>, <tr>, <th>, <td>
-Forms: <form>, <label>, <input>, <textarea>, <button>, attributes: type, id, name, required
+Forms: <form>, <label>, <input>, <textarea>, <button> (attrs: type, id, name, required)
 Meta: <meta charset="UTF-8">, <meta name="viewport" content="width=device-width, initial-scale=1">
 Complete Example Page
 <!DOCTYPE html>
